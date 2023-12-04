@@ -139,7 +139,7 @@
 
     
     <div class="contact-container">
-        <h3 style="text-align:center;"><b>TRANSPORT DIVISION</b><br><span class="st2">Floor No : 02 </span></h3>
+        <h3 style="text-align:center;"><b>DIRECTOR GENERAL'S OFFICE</b><br><span class="st2">Floor No : 09 </span></h3>
         <div class="contact-card1">
             <div class="contact-details">
                 <div class="contact-image-container">
@@ -149,14 +149,14 @@
                     <div class="name">OFFICE<br>
                        
                         <p>
-                         LandLine : <span id="td_land">011-2689650</span><br>
-                         Email : <span id="email_one">transport457@mahaweli.gov.lk </span>                    
+                         LandLine : <span id="td_land">011-2687238</span><br>
+                         Email : <span id="email_one">dg@mahaweli.gov.lk </span>                    
                         </p>
                     </div>
                 </div>
             </div>
             <div class="contact-buttons">
-                <button class="call-button" onclick="callNumber('td_land')"> Call LandLine</button>
+                <button class="call-button" onclick="callNumber('dg_land')"> Call LandLine</button>
                 <button class="call-button2"  onclick="openEmailApp_one()">Send Email</button>
             </div>
             <script>
@@ -182,19 +182,47 @@
                     <img class="contact-image" src="one.jpg" alt="Profile Image">
                 </div>
                 <div>
-                    <div class="name">Mr.Lesly Arambewela<br>
-                        <span class="disgnation">Assistant Director</span><br>
+                    <div class="name">Eng.B.A.Sunil S.Perera<br>
+                        <span class="disgnation">Director General</span><br>
                         <p>
-                         In.Com: <span id="">455</span><br> 
-                         LandLine : <span id="ddt_land">011-2689650</span><br>
-                         Mobile : <span id="ddt_mobile">077-3444172</span>                    
+                         In.Com: <span id="">203</span><br> 
+                         LandLine : <span id="ddt_land">011- 2687238</span><br>
+                         Mobile : <span id="ddt_mobile">070-2115779</span>                    
                         </p>
                     </div>
                 </div>
             </div>
             <div class="contact-buttons">
-                <button class="call-button" onclick="callNumber('ddt_land')"> Call LandLine</button>
-                <button class="call-button" onclick="callNumber('ddt_mobile')">Call Mobile</button>
+                <button class="call-button" onclick="callNumber('dg_land')"> Call LandLine</button>
+                <button class="call-button" onclick="callNumber('dg_mobile')">Call Mobile</button>
+            </div>
+            <script>
+                function callNumber(number, isMobile = false) {
+                    var prefix = isMobile ? 'tel:' : 'tel:';
+                    window.location.href = prefix + document.getElementById(number).textContent;
+                }
+            </script>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-details">
+                <div class="contact-image-container">
+                    <img class="contact-image" src="one.jpg" alt="Profile Image">
+                </div>
+                <div>
+                    <div class="name">Mr.M.L.D.C.M Abeywardana<br>
+                        <span class="disgnation">Additional Director General</span><br>
+                        <p>
+                         In.Com: <span id="">214</span><br> 
+                         LandLine : <span id="ad_land">011-2675790</span><br>
+                         Mobile : <span id="ad_mobile">0777-585432</span>                    
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-buttons">
+                <button class="call-button" onclick="callNumber('ad_land')"> Call LandLine</button>
+                <button class="call-button" onclick="callNumber('ad_mobile')">Call Mobile</button>
             </div>
             <script>
                 function callNumber(number, isMobile = false) {
@@ -212,17 +240,19 @@
                     <img class="contact-image" src="one.jpg" alt="Profile Image">
                 </div>
                 <div>
-                    <div class="name">Eng.R.A.M.S.Ranaweera<br>
-                        <span class="disgnation">Engineer(Mechanical)</span><br>
+                    <div class="name">Mr.Ranidu Weerasinghe<br>
+                        <span class="disgnation">Personal Assistant</span><br>
                         <p>
-                         In.Com: <span id="">456</span><br> 
-                         Mobile : <span id="em_mobile">071-3879018</span>                    
+                         In.Com: <span id="">204</span><br>
+                         LandLine : <span id="pa_land">011-2687238</span><br> 
+                         Mobile : <span id="pa_mobile">071-8235236</span>                    
                         </p>
                     </div>
                 </div>
             </div>
             <div class="contact-buttons">
-                <button class="call-button" onclick="callNumber('em_mobile')">Call Mobile</button>
+                <button class="call-button" onclick="callNumber('pa_land')"> Call LandLine</button>
+                <button class="call-button" onclick="callNumber('pa_land')">Call Mobile</button>
             </div>
             <script>
                 function callNumber(number, isMobile = false) {
@@ -238,17 +268,19 @@
                     <img class="contact-image" src="one.jpg" alt="Profile Image">
                 </div>
                 <div>
-                    <div class="name">Mr.B.M.Anura Bandara<br>
-                        <span class="disgnation">Transport Officer</span><br>
+                    <div class="name">Mrs.Rashani Jayasekara<br>
+                        <span class="disgnation">Public Relations Officer</span><br>
                         <p>
-                         In.Com: <span id="">458</span><br> 
-                         Mobile : <span id="to_mobile">071-7017854</span>                    
+                         In.Com: <span id="">450</span><br> 
+                         LandLine : <span id="pro_land">011-2687238</span><br> 
+                         Mobile : <span id="pro_mobile">071-9886337</span>                    
                         </p>
                     </div>
                 </div>
             </div>
             <div class="contact-buttons">
-                <button class="call-button" onclick="callNumber('to_mobile')">Call Mobile</button>
+                <button class="call-button" onclick="callNumber('pro_land')">Call LandLine</button>
+                <button class="call-button" onclick="callNumber('pro_mobile')">Call Mobile</button>
             </div>
             <script>
                 function callNumber(number, isMobile = false) {
@@ -258,8 +290,7 @@
             </script>
         </div>
 
-
-        <h3 style="text-align:center;"><b>ADMINISTRATIVE</b><br><span class="st2"></span></h3>
+        <h3 style="text-align:center;"><b>CONFERENCE HALL BOOKING</b><br><span class="st2"></span></h3>
 
         <div class="contact-card">
             <div class="contact-details">
@@ -267,16 +298,17 @@
                     <img class="contact-image" src="one.jpg" alt="Profile Image">
                 </div>
                 <div>
-                    <div class="name">Administrative<br>
-                        <span class="disgnation">Administrative 01</span><br>
+                    <div class="name">Miss.Indrani Subasinghe<br>
+                        <span class="disgnation">IT Administrative Officer</span><br>
                         <p>
-                         In.Com: <span id="">457</span><br>                    
+                         In.Com: <span id="">253</span><br> 
+                         Mobile : <span id="iao_mobile">071-4453874</span>                    
                         </p>
                     </div>
                 </div>
             </div>
             <div class="contact-buttons">
-               
+                <button class="call-button" onclick="callNumber('iao_mobile')">Call Mobile</button>
             </div>
             <script>
                 function callNumber(number, isMobile = false) {
@@ -285,90 +317,6 @@
                 }
             </script>
         </div>
-
-        <div class="contact-card">
-            <div class="contact-details">
-                <div class="contact-image-container">
-                    <img class="contact-image" src="one.jpg" alt="Profile Image">
-                </div>
-                <div>
-                    <div class="name">Administrative<br>
-                        <span class="disgnation">Administrative 02</span><br>
-                        <p>
-                         In.Com: <span id="">454</span><br>                    
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-buttons">
-               
-            </div>
-            <script>
-                function callNumber(number, isMobile = false) {
-                    var prefix = isMobile ? 'tel:' : 'tel:';
-                    window.location.href = prefix + document.getElementById(number).textContent;
-                }
-            </script>
-        </div>
-
-
-        <h3 style="text-align:center;"><b>MECHANICAL ROOM</b><br><span class="st2"></span></h3>
-
-        <div class="contact-card">
-            <div class="contact-details">
-                <div class="contact-image-container">
-                    <img class="contact-image" src="one.jpg" alt="Profile Image">
-                </div>
-                <div>
-                    <div class="name">Mechanical Room<br>
-                        <span class="disgnation">Mahaweli Authority</span><br>
-                        <p>
-                         In.Com: <span id="">507</span><br>                    
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-buttons">
-               
-            </div>
-            <script>
-                function callNumber(number, isMobile = false) {
-                    var prefix = isMobile ? 'tel:' : 'tel:';
-                    window.location.href = prefix + document.getElementById(number).textContent;
-                }
-            </script>
-        </div>
-
-
-        <h3 style="text-align:center;"><b>DRIVERS ROOM</b><br><span class="st2"></span></h3>
-
-        <div class="contact-card">
-            <div class="contact-details">
-                <div class="contact-image-container">
-                    <img class="contact-image" src="one.jpg" alt="Profile Image">
-                </div>
-                <div>
-                    <div class="name">Drivers Room<br>
-                        <span class="disgnation">Mahaweli Authority</span><br>
-                        <p>
-                         In.Com: <span id="">502</span><br>                    
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="contact-buttons">
-               
-            </div>
-            <script>
-                function callNumber(number, isMobile = false) {
-                    var prefix = isMobile ? 'tel:' : 'tel:';
-                    window.location.href = prefix + document.getElementById(number).textContent;
-                }
-            </script>
-        </div>
-
-
-
 
 
 
